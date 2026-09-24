@@ -3,22 +3,23 @@
 .about{
     width:400px;
     margin: auto;
+    font-family:'sans-serif';
 }
 
 .about-team{
-    color:rgb(82, 81, 81)
+    color:rgb(0, 105, 3)
 }
 
 .authors{
-    background-color: #dde7db;
+    background-color: #abec9f;
 }
 
 .body{
-    background-color: rgb(90, 92, 92);
+    background-color: rgb(178, 232, 180);
 }
 
 .chartjs-sample{
-    background-color: #8fa3ab;
+    background-color: #c7fcdb;
 }
 
 .footer{                
@@ -30,7 +31,7 @@
 }
 
 .nav-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #277502;
 }
 
 .nav-menu-item{               /* navbar link text properties */
@@ -57,7 +58,7 @@
 }
 
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: #000000; /*#0096c7*/
 }
 
 /* ----------------- ID CSS ----------------- */
@@ -96,4 +97,7 @@
 .hover-underline-animation:hover:after {
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
+}
+*{
+    font-family:'Times New Roman', Times, serif;
 }
