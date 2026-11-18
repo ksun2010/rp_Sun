@@ -4,7 +4,7 @@
 */
 
 async function getData() {
-    const response = await fetch('../data/data.csv'); // .. to move up one folder
+    const response = await fetch('data/data.csv'); // .. to move up one folder
     const data  = await response.text();
     // console.log(data);
 
